@@ -26,32 +26,19 @@ export PS1="$purple\u on \h$green\$(__git_ps1)$blue \W \n$ $reset"
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Proxy
-export USER=lbg126
-export PATH=$PATH:~/bin
-source ~/.proxies.sh
-
-proxy_on
+export USER=adamscharf
 
 export LC_CTYPE=UTF-8
 export LC_ALL=en_US.UTF-8
 
 # GO
-export GOPATH="$HOME/projects"
-export PATH=$PATH:$GOPATH/bin
+# export GOPATH="$HOME/projects"
+# export PATH=$PATH:$GOPATH/bin
 
 # Maven
-export M2_HOME=/usr/local/Cellar/maven/3.3.9/libexec
-export M2=$M2_HOME/bin
-export PATH=$M2:$PATH
-
-# AWS Defaults
-source ~/bin/switch_aws_accounts.sh
-
-aws_personal_off
+# export M2_HOME=/usr/local/Cellar/maven/3.3.9/libexec
+# export M2=$M2_HOME/bin
+# export PATH=$M2:$PATH
 
 # added by Anaconda2 4.0.0 installer
-export PATH="/Users/lbg126/anaconda/bin:$PATH"
-
-# Ruby
-# export GEM_HOME=/Users/lbg126/.gem
-# export PATH="$GEM_HOME/bin:$PATH"
+# export PATH="/Users/lbg126/anaconda/bin:$PATH"

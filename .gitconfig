@@ -8,6 +8,7 @@
 	required = true
 [user]
 	email = scharfat@gmail.com
+	name = Adam Scharf
 [alias]
 	co = checkout
 	br = branch
