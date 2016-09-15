@@ -1,0 +1,5 @@
+{
+  "registry": "https://bower.cloud.capitalone.com",
+  "strict-ssl": false,
+  "timeout": 30000
+}
